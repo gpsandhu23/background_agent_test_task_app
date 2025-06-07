@@ -1,0 +1,195 @@
+# TaskFlow - Simple Task Management App
+# A SPELL specification example
+
+product_vision: "A minimalist task management app that helps busy professionals focus on what matters most, with zero friction between thought and action"
+
+user_pain_points:
+  - "Current task apps are too complex with unnecessary features"
+  - "Too many clicks required to add a simple task"
+  - "Can't quickly see what's most important"
+  - "Tasks get lost in long lists"
+  - "No clear way to handle recurring tasks"
+
+user_stories:
+  - "As a busy professional, I want to add a task in under 3 seconds so I can capture thoughts quickly"
+  - "As a project manager, I want to see my most important tasks first so I can focus on what matters"
+  - "As a team lead, I want to share task lists with my team so we stay aligned"
+  - "As a forgetful person, I want to set up recurring tasks so I don't miss important activities"
+  - "As a mobile user, I want to add tasks with voice so I can capture ideas while walking"
+
+core_features:
+  must_have:
+    - One-click task creation
+    - Priority-based task organization
+    - Due date support
+    - Recurring task setup
+    - Quick search
+    - Offline support
+  nice_to_have:
+    - Voice input
+    - Team sharing
+    - Calendar integration
+    - Task templates
+    - Progress tracking
+
+non_goals:
+  - "NOT a full project management suite"
+  - "NOT a team collaboration platform"
+  - "NOT a time tracking tool"
+  - "NOT a document management system"
+
+success_metrics:
+  - "Add a new task in under 3 seconds"
+  - "Find any task in under 5 seconds"
+  - "Complete daily review of tasks in under 2 minutes"
+  - "Never miss a recurring task"
+
+target_users:
+  primary:
+    - Busy professionals (25-45)
+    - Project managers
+    - Team leads
+  secondary:
+    - Students
+    - Homemakers
+    - Small business owners
+
+usage_context:
+  primary_environment: "Mobile and desktop"
+  time_constraints: "Quick sessions (1-2 minutes)"
+  device_preferences:
+    - Mobile (60% of usage)
+    - Desktop web (40% of usage)
+  typical_usage:
+    - "Morning task review"
+    - "Throughout day task capture"
+    - "Evening planning"
+
+user_experience_flow:
+  initial_screen: "Today's prioritized tasks"
+  navigation:
+    - "Quick add button always visible"
+    - "Swipe to complete tasks"
+    - "Pull to refresh"
+  key_interactions:
+    - "Tap + to add task"
+    - "Swipe right to complete"
+    - "Swipe left to delete"
+    - "Long press to edit"
+
+key_interactions_with_examples:
+  task_creation:
+    - "Tap + → Type task → Press enter"
+    - "Voice button → Speak task → Confirm"
+  task_management:
+    - "Swipe right on task to complete"
+    - "Long press to edit details"
+    - "Pull down to refresh list"
+  navigation:
+    - "Swipe between Today/Upcoming/Completed"
+    - "Tap filter icon to sort by priority"
+
+onboarding_experience:
+  first_time:
+    - "Welcome screen with value proposition"
+    - "Quick tutorial (3 steps)"
+    - "Sample task creation"
+  minimum_setup:
+    - "No account required for basic use"
+    - "Optional email signup for sync"
+  learning_curve:
+    - "Tooltips for first-time features"
+    - "Contextual help available"
+
+error_handling_recovery:
+  common_scenarios:
+    - "Offline mode with sync when connected"
+    - "Duplicate task detection"
+    - "Invalid date handling"
+  recovery_paths:
+    - "Auto-save on all actions"
+    - "Undo for accidental completions"
+    - "Conflict resolution for shared lists"
+  user_communication:
+    - "Friendly, concise error messages"
+    - "Clear next steps"
+    - "Visual feedback for all actions"
+
+data_privacy:
+  storage:
+    - "Local storage by default"
+    - "Optional cloud sync"
+  access:
+    - "Personal data only"
+    - "Team data with permissions"
+  data_retention:
+    - "Keep completed tasks for 30 days"
+    - "Archive option for longer retention"
+
+user_access_model:
+  primary: "Email-based accounts"
+  options:
+    - "Anonymous use (local only)"
+    - "Personal account (with sync)"
+    - "Team account (with sharing)"
+
+technical_constraints_requirements:
+  platform:
+    - "Web (Chrome, Safari, Firefox)"
+    - "iOS 14+"
+    - "Android 10+"
+  connectivity:
+    - "Offline-first design"
+    - "Background sync when online"
+  performance:
+    - "App launch < 2 seconds"
+    - "Task creation < 1 second"
+  accessibility:
+    - "Screen reader support"
+    - "Keyboard navigation"
+    - "High contrast mode"
+
+multi_user_behavior:
+  collaboration:
+    - "Shared task lists"
+    - "Real-time updates"
+    - "Task assignments"
+  permissions:
+    - "View only"
+    - "Edit"
+    - "Admin"
+  conflict_resolution:
+    - "Last write wins"
+    - "Conflict notification"
+    - "Manual resolution option"
+
+integration_needs:
+  required:
+    - "Calendar (Google, Apple)"
+    - "Email (for notifications)"
+  optional:
+    - "Slack notifications"
+    - "Microsoft Teams"
+    - "Jira (read-only)"
+
+migration_path:
+  import:
+    - "Todoist"
+    - "Apple Reminders"
+    - "Google Tasks"
+    - "CSV format"
+  export:
+    - "CSV"
+    - "PDF"
+    - "Calendar events"
+
+scalability_expectations:
+  data_volume:
+    - "Up to 10,000 tasks per user"
+    - "Up to 100 users per team"
+  performance:
+    - "Maintain speed with 1,000+ tasks"
+    - "Support 100+ concurrent users"
+  growth:
+    - "Handle 10x user growth"
+    - "Support multiple teams per organization" 
