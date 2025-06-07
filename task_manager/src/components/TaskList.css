@@ -1,0 +1,32 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.task-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-group-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.task-group-title.high-priority {
+  color: var(--priority-high);
+}
+
+.task-group-title.medium-priority {
+  color: var(--priority-medium);
+}
+
+.task-group-title.low-priority {
+  color: var(--priority-low);
+}
